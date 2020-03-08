@@ -14,4 +14,4 @@ The dynamics can be defined as
 
 where T is the unit tangent vector (aka directional derivative). A lot was simplified by noting that we only want our car to be moved in the direction it's facing - i.e. gravity won't push it down the hill sideways. This allows us to treat the velocity and acceleration as scalars rather than vectors, making everything a LOT easier.
 
-Further we combined the normal and gravitational acceleration (normally g, and g cos(phi) respectively, where phi is angle of hill) into g sin(phi), which after some tedious trig, is actually just the z component of the unit tangent vector - g*T_3.
+Further we combined the gravitational and normal acceleration (normally g, and g cos(phi) respectively, where phi is angle of hill) into g sin(phi), which after some tedious trig, is actually just the z component of the unit tangent vector - g*T_3.
